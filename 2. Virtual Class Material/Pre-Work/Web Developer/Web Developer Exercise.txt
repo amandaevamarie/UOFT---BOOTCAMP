@@ -1,0 +1,19 @@
+1. PHP - scripting language used to create dynamic webpages - often used with MySQL databases. It combines syntax from Java (which differs from Javascript), C and Perl languages and is embedded in HTML for server side execution. Stands for Hypertext Preprocesser.  
+
+2. MySQL - is an open source database product. This differs from SQL, which is a language used for querying databases (a language used to request information from a database - in order to request information pre-determined code is set to make the database understgand the instructions). MySQL is an open source relational database management system - which means it stores data in rows on a table and connects data that is in relation to each other - that uses te SQL commands to perform specific operations in a database. In short, MySQL is a system that maintains a relational database and uses SQL language to communicate with the databases
+
+3. Symfony - is an open source PHP web application framework. Basically, it is a simple toolkit for web developers to facilitate full-featured web applications. 
+
+4. APIs - stands for Application Programming Interface - and is a software mediator that allows two programs to speak to each other. For example, A Web Application running in a browser or Mobile App running on mobile device. Needs a middleperson to talk to backend services to tell the mobile/browser how to speak to the web app/mobile app. 
+
+5. Ruby - is a programming language which focuses on simplicity and productivity 
+
+6. Node.js - is an open source runtime environemnt for executing JavaScript code outside of a browser. Node is used to build back-end services (APIs)
+
+7. React.js - JavaScript library for building use interfaces. Was created by Facebook, Inc (now Meta Platforms, Inc). This means it has pre-written Javascipt code that allows for easier development of JS based applications. React.js' library of pre-written code is used for building user interfaces based on UI components.
+
+8. Electron - framework developed by GitHub.  That allows you to create cross platform applications using HTML, CSS, and JS
+
+9. Azure - public cloud computing platform. Azure offers Iaas (Infrastructure as a service) and Paas (Platform as a service). Some companies use this product as a back up/ emergency recovery product or as an alternative to private data centres
+ 
+10.MongoDB - is a document based model NoSQL database management program used for high volume data storage. Meaning instead of storing data related to each other - MongoDB stores documents with no inherent structure 

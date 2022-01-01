@@ -1,0 +1,70 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    margin:0
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+.box-1 {
+    background-color: palegoldenrod;
+    color:#555555;
+    border: 10px red solid;  
+    padding: 20px; 
+}
+
+.red-1 {
+    color: red;
+}
+
+.blue-1 {
+    color: blue;
+}
+
+.green-1 {
+    color: green
+}
+
+.box-2 {
+    font-weight: bold;
+}
+
+.big {
+    font-size:xx-large;
+}
+
+.tiny {
+    font-size: small;
+}
+
+.font-family {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:x-large
+}
+
+.box-3 {
+    font-size:xx-large;
+    color: orange;
+    font-weight: bold;
+}
+
+.styledFont {
+    color: grey;
+    font-family:monospace;
+}
+
+#styledImage {
+    border-width: 16px;
+    border-color: orange;
+    border-style: solid;
+}

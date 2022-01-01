@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background-color: #f4f4f4;
+    font: normal 16px 'Courier New', Serif;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+.box-1 {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    border: 8px #00E9FF solid;
+    margin:20px 0px;
+}
+
+.box-1 h1 {
+    text-align:center;  
+}

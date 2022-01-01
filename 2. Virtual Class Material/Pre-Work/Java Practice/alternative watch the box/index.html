@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Watch That Box</title>
+</head>
+<body>
+
+    <p>Press the buttons to change the box!</p>
+
+    <div id="box" style="height:150px; width:150px; background-color:orange; margin:25px;"></div>
+
+    <button id="button1">Grow</button>
+    <button id="button2">Blue</button>
+    <button id="button3">Fade</button>
+    <button id="button4">Reset</button>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
+
+
+<!-- Just get your references once. -->
+const box = document.getElementById("box");
+
+document.getElementById("button1").addEventListener("click", function(){
+  box.classList.add("bigBox"); // Just add/remove the desired class
+});
+document.getElementById("button2").addEventListener("click", function(){
+  box.classList.add("blue");
+});
+
+document.getElementById("button3").addEventListener("click", function(){
+  box.classList.add("transparent");
+  box.classList.add("noSize");
+});
+
+document.getElementById("button4").addEventListener("click", function(){
+  // When you remove a class, the prior settings that were
+  // overridden by the class are reinstated.
+  box.classList.remove("bigBox");
+  box.classList.remove("transparent");
+  box.classList.remove("blue");
+  box.classList.remove("noSize");
+});
+
+#box { 
+<!-- You must declare that you want transitions to 
+     apply to the element and then you must set
+     initial property values for the properties
+     you'll want the transition to apply to. 
+     If you only want certain properties to transition
+     name them on the next line instead of "all" -->
+  transition: all 3s ease; 
+  height:150px; 
+  width:150px; 
+  background-color:orange; 
+  margin:25px; 
+  opacity:1;
+}
+
+/* These will be added (thus triggering
+   the transition) and removed through
+   JavaScript. It's better to use classes
+   than to use inline styles in HTML. */
+#box.transparent { opacity:0; }
+#box.bigBox { height:250px; }
+#box.blue { background-color:blue; }
+#box.noSize { height:0; width:0; }
+<div id="box"></div>
+
+<button id="button1">Grow</button>
+<button id="button2">Blue</button>
+<button id="button3">Fade</button>
+<button id="button4">Reset</button>
