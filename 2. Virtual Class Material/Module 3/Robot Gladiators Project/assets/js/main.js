@@ -64,7 +64,6 @@ var fight = function(enemyName) {
 
     console.log(" Emarie now has " + playerMoney + " health remaining! ");
     
-    console.log(arguments);
   };
    
 
